@@ -1,0 +1,36 @@
+
+.sliderButtons-left {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    margin-left:20px;
+}
+
+.sliderButtons-right {
+    position: absolute;
+    top:50%;
+    right:0;
+    transform: translateY(-50%);
+    margin-right:20px;
+}
+
+
+.sliderButtons-close {
+    position: absolute;
+    right: 0;
+    margin-right:40px;
+    margin-top:40px;
+}
+
+@media (max-width: 845px) {
+    .sliderButtons-left {
+        margin-left: 2px;
+    }
+    .sliderButtons-right {
+        margin-right: 2px;
+    }
+    .sliderButtons-close {
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+}

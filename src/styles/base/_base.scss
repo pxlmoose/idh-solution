@@ -1,0 +1,16 @@
+// here come styles that will be aplied to all elements as default
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: $text-font;
+    line-height: 1.6;
+    background-image: url('/images/main_bg.png');
+}
+
+button {
+    cursor: pointer;
+}

@@ -1,0 +1,35 @@
+.modal-position {
+    text-align: center;
+    font-size: 4rem;
+    color: #fff;
+    text-shadow: 2px 2px 5px #161719;
+    margin-bottom: -7rem;
+    font-weight: 300;
+}
+
+.modal-name {
+    text-align: center;
+    font-size: 7rem;
+    color: #fff;
+    text-shadow: 2px 2px 5px #161719;
+    font-weight: 400;
+}
+
+@media (max-width: 1200px) {
+    .modal-position {
+        font-size: 3rem;
+    }
+    .modal-name {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 845px) {
+    .modal-position {
+        font-size: 2rem;
+        margin-bottom: -5rem;
+    }
+    .modal-name {
+        font-size: 4rem;
+    }
+}

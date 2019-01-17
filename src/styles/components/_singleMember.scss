@@ -1,0 +1,11 @@
+.singleMember {
+    max-width: 140px;
+    margin: 25px;
+}
+
+@media (max-width: $medium-size) {
+    .singleMember {
+        max-width: 120px;
+        margin: 25px;
+    }
+}
